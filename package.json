@@ -1,0 +1,24 @@
+{
+    "name": "shared-auth",
+    "version": "1.0.0",
+    "description": "Shared authentication utilities for Total Services",
+    "main": "index.js",
+    "keywords": [
+        "auth",
+        "authentication",
+        "shared",
+        "utilities"
+    ],
+    "private": true,
+    "dependencies": {
+        "@azure/identity": "^4.10.2",
+        "@azure/keyvault-secrets": "^4.10.0",
+        "bcrypt": "5.1.0",
+        "dotenv": "16.0.3",
+        "express": "^4.17.1",
+        "helmet": "^7.0.0",
+        "jsonwebtoken": "9.0.0",
+        "passport": "0.7.0",
+        "passport-jwt": "^4.0.1"
+    }
+}
